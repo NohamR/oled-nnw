@@ -1,15 +1,15 @@
 {
-  "name": "elegant-nnw",
+  "name": "Oled-nnw",
   "version": "0.1.16",
   "packageManager": "pnpm@10.6.4",
-  "description": "Elegant theme for NetNewsWire",
+  "description": "Oled theme for NetNewsWire",
   "author": {
     "name": "Chang Jun",
     "email": "52chinaweb@gmail.com",
     "url": "https://52chinaweb.com/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/ChangJun2019/elegant-nnw",
+  "homepage": "https://github.com/ChangJun2019/Oled-nnw",
   "keywords": [
     "theme",
     "nnw",

@@ -29,42 +29,65 @@ text_size_class: The size class that the user has selected in Preferences for ar
 body: The body of the article.
 
 -->
-<div id="elegantReader" class="max-w-prose px-2 py-3 mx-auto box-border font-sans [[text_size_class]]">
-
-  <div class="w-full h-12 flex items-center gap-4 my-8 text-xl font-medium text-gray-900 dark:text-white">
-    <img class="flex-shrink-0 w-12 h-12 overflow-hidden bg-white dark:bg-dark-600 rounded-md ring-1 ring-dark-600/5 shadow-xl" src="[[avatar_src]]" alt="feed img">
-    <div class="flex-1 min-w-0 truncate">
-      [[feed_link_title]]
+<div id="oled-reader">
+  <!-- Header -->
+  <header>
+    <img
+      src="[[avatar_src]]"
+      alt="feed img"
+    />
+    <div class="feed-title">
+      <a
+        href="[[feed_link]]"
+        title="Open feed"
+      >
+        [[feed_link_title]]
+      </a>
     </div>
-    <div class="text-base text-secondary">
+    <div class="date">
       [[date_long]]
     </div>
-  </div>
+  </header>
 
-  <article class="prose prose-dark dark:prose-light">
-    <h1 class="mb-4">[[title]]</h1>
-    <p class="mt-2 text-secondary">
-      <a href="[[feed_link]]" class="ml-2 text-secondary font-normal" alt="feed link" title="feed link">
+  <!-- Article -->
+  <article class="prose prose-neutral dark:prose-invert">
+    <h1>
+      <a
+        href="[[preferred_link]]"
+        title="Open original post"
+      >
+        [[title]]
+      </a>
+    </h1>
+
+    <p class="meta">
+      <a
+        href="[[feed_link]]"
+        title="Feed link"
+      >
         <span class="i-carbon-rss"></span>
         Feed
       </a>
-      <a href="[[preferred_link]]" class="ml-4 text-secondary font-normal" alt="originally link" title="originally link">
+      <a
+        href="[[preferred_link]]"
+        title="Original post link"
+      >
         <span class="i-carbon-link"></span>
-        Originally
+        Post
       </a>
     </p>
-    <div class="mt-8">
+
+    <div class="content">
       [[body]]
     </div>
-    <p class="text-secondary text-sm text-center my-12">- THE END -</p>
   </article>
 
-
-
-  <footer class="my-12 prose text-center">
-    <a href="[[feed_link]]">[[byline]]</a>
+  <!-- Footer -->
+  <footer>
+    <a href="[[feed_link]]">
+      [[byline]]
+    </a>
   </footer>
 </div>
-
 
 <script type="text/javascript"></script>

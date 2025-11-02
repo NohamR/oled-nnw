@@ -1,4 +1,4 @@
 {
   "extends": "stylelint-config-standard",
-  "ignoreFiles": ["Elegant.nnwtheme/stylesheet.css"]
+  "ignoreFiles": ["Oled.nnwtheme/stylesheet.css"]
 }

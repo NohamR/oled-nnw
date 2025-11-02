@@ -1,4 +1,4 @@
-export const DIRECTORY_NAME = 'Elegant.nnwtheme'
+export const DIRECTORY_NAME = 'Oled.nnwtheme'
 
 export const ARTICLE_TEXT = {
   small: 'sm',

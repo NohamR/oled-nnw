@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>ThemeIdentifier</key>
-	<string>com.52chinaweb.themes.elegant</string>
+	<string>com.noham.themes.oled</string>
 	<key>Name</key>
-	<string>elegant</string>
+	<string>Oled</string>
 	<key>CreatorHomePage</key>
-	<string>https://52chinaweb.com/</string>
+	<string>https://noh.am/</string>
 	<key>CreatorName</key>
-	<string>Chang Jun</string>
+	<string>Noham</string>
 	<key>Version</key>
 	<integer>1</integer>
 </dict>
